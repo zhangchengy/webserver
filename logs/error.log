@@ -1,0 +1,164 @@
+<2018-07-09 09:26:47> <pool-1-thread-5> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:220)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 10:11:37> <pool-1-thread-5> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: Invalid file path
+	at java.io.FileInputStream.<init>(FileInputStream.java:133)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 10:13:02> <pool-1-thread-5> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: Invalid file path
+	at java.io.FileInputStream.<init>(FileInputStream.java:133)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 15:48:12> <pool-1-thread-15> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 15:48:20> <pool-1-thread-15> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 16:33:38> <main> com.succez.httpserver.Server.service(Server.java:39) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.succez.httpserver.Server.service(Server.java:36)
+	at com.succez.httpserver.Server.main(Server.java:61)
+<2018-07-09 18:45:06> <pool-1-thread-46> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:13:31> <pool-1-thread-90> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:240)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:13:31> <pool-1-thread-94> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:283)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:13:31> <pool-1-thread-92> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:283)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:16:26> <pool-1-thread-96> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:283)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:24:39> <pool-1-thread-107> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-09 19:24:41> <pool-1-thread-107> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

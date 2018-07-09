@@ -1,0 +1,370 @@
+<2018-07-06 09:27:11> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����\myfile.txt�������� (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 09:27:12> <pool-1-thread-2> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 09:33:58> <pool-1-thread-5> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 10:07:35> <pool-1-thread-6> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 10:16:30> <pool-1-thread-2> com.succez.httpserver.ProcessThread.run(ProcessThread.java:45) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:258)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 10:16:32> <pool-1-thread-3> com.succez.httpserver.ProcessThread.run(ProcessThread.java:45) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:258)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 10:22:02> <main> com.succez.httpserver.Server.service(Server.java:39) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.succez.httpserver.Server.service(Server.java:36)
+	at com.succez.httpserver.Server.main(Server.java:61)
+<2018-07-06 11:19:33> <pool-1-thread-2> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����\myfile.txt�������� (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 11:19:35> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 11:29:05> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 14:15:32> <pool-1-thread-6> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 14:48:01> <pool-1-thread-2> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:220)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 15:23:30> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:159) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:23:46> <pool-1-thread-2> com.succez.httpserver.Request.init(Request.java:159) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:26:35> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:159) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:27:08> <pool-1-thread-2> com.succez.httpserver.Request.init(Request.java:159) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:32:16> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-2> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-3> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-4> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-5> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-6> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:16> <pool-1-thread-12> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-13> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-11> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-9> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-10> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-8> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-7> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:20> <pool-1-thread-19> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:36:40> <main> com.succez.httpserver.Server.service(Server.java:39) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.succez.httpserver.Server.service(Server.java:36)
+	at com.succez.httpserver.Server.main(Server.java:61)
+<2018-07-06 15:37:02> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:02> <pool-1-thread-2> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:02> <pool-1-thread-3> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:02> <pool-1-thread-4> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:02> <pool-1-thread-8> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:18> <pool-1-thread-9> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:18> <pool-1-thread-7> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:18> <pool-1-thread-6> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:37:18> <pool-1-thread-11> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:38:29> <pool-1-thread-1> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:38:29> <pool-1-thread-2> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:38:29> <pool-1-thread-3> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:38:29> <pool-1-thread-5> com.succez.httpserver.Request.init(Request.java:158) 
+<ERROR> 输入流没有准备好！！！
+
+<2018-07-06 15:43:01> <pool-1-thread-3> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\���`�.txt����� (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 15:43:03> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\���`�.txt����� (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 15:43:04> <pool-1-thread-2> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\���`�.txt����� (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 15:51:10> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:220)
+	at com.succez.httpserver.Response.sendResponse(Response.java:280)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 15:58:01> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:220)
+	at com.succez.httpserver.Response.sendResponse(Response.java:280)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 17:03:10> <pool-1-thread-5> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 17:10:26> <pool-1-thread-1> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 17:56:34> <pool-1-thread-11> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-06 18:04:29> <pool-1-thread-16> com.succez.httpserver.Response.sendContent(Response.java:224) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: C:\Users\yang\git\study\zhangchengy_study\WebRoot\����.txt�������� (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:216)
+	at com.succez.httpserver.Response.sendResponse(Response.java:248)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
