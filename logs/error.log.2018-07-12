@@ -1,0 +1,81 @@
+<2018-07-12 11:31:52> <pool-1-thread-219> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:233)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-12 11:31:52> <pool-1-thread-215> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:233)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-12 11:31:53> <pool-1-thread-219> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 11:31:53> <pool-1-thread-218> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 11:31:53> <pool-1-thread-215> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:233)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-12 11:31:53> <pool-1-thread-218> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 11:31:53> <pool-1-thread-214> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 11:31:53> <pool-1-thread-219> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 11:31:54> <pool-1-thread-217> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:233)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-12 12:00:02> <pool-1-thread-276> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 12:00:02> <pool-1-thread-275> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 12:00:02> <pool-1-thread-279> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 12:00:03> <pool-1-thread-275> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 12:00:03> <pool-1-thread-278> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+
+<2018-07-12 12:00:03> <pool-1-thread-274> com.succez.httpserver.Response.sendResponse(Response.java:278) 
+<ERROR> 目录不存在！！！
+

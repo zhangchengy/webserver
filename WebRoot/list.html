@@ -1,34 +1,36 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<script type="text/javascript" src="WebRoot/js/list.js"></script>
-<link href="WebRoot/css/style.css" rel="stylesheet" type="text/css" />
-<link href="WebRoot/css/font-awesome.css" rel="stylesheet" type="text/css" />
-<title>文件根目录</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="text/javascript" src="WebRoot/js/ajax.js"></script>
+	<script type="text/javascript" src="WebRoot/js/tree.js"></script>
+	<script type="text/javascript" src="WebRoot/js/file.js"></script>
+	<link href="WebRoot/css/style.css" rel="stylesheet" type="text/css" />
+	<title>文件根目录</title>
 </head>
-<body>
-<div class="title">Succez文件管理系统</div>
-<div class="div_table">
-	<table id="table">
-		<thead>
-			<tr>
-				<th width="50%">名称</th>
-				<th width="20%">大小</th>
-				<th width="30%">修改日期</th>
-			</tr>
-		</thead>
-		<tbody id="result"></tbody>
-	</table>
+
+<body id="body">
+	<div class="title"><img src="WebRoot/image/logo.png" />文件管理系统</div>
+	<div id="result">
+		<ul>文件名</ul>
+		<ul id="tree"></ul>
 	</div>
-	<div class="tools">
-	<i onclick="filesave();" id="save_i" class="fa fa-save" style="font-size:20px"><a class="save_file" >保存</a></i>
-	<i onclick="filedownload();" class="fa fa-arrow-down" style="font-size:20px"><a class="down_file" >下载</a></i>
+
+	<div id="tools">
+			 <i   id="save_file" ><!--图片没有保存功能，只有文本才可以保存 -->
+				保存</i>
+			<i   id="down_file"><!--图片文本都可下载-->
+				下载</i>
+		</div>
+
+	<textarea id="show_text"></textarea>
+	<div id="show_img_div">
+		<img src="" id="show_img"  />
 	</div>
-	<textarea class="show_text"></textarea>
-	<div id="show_img_div"><img src="" id="show_img"/><div>
-	
+
 </body>
+
 </html>

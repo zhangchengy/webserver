@@ -1,0 +1,131 @@
+<2018-07-10 12:02:11> <pool-1-thread-6> com.succez.httpserver.Response.sendContent(Response.java:225) 
+<ERROR> 读入文件输出异常
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at com.succez.httpserver.Response.sendContent(Response.java:221)
+	at com.succez.httpserver.Response.sendResponse(Response.java:249)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 15:15:26> <pool-1-thread-13> com.succez.httpserver.Response.sendContent(Response.java:218) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\WebRoot\index.html (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:210)
+	at com.succez.httpserver.Response.sendResponse(Response.java:242)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 15:15:37> <pool-1-thread-13> com.succez.httpserver.Response.sendContent(Response.java:218) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\WebRoot\index.html (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:210)
+	at com.succez.httpserver.Response.sendResponse(Response.java:242)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 15:21:44> <pool-1-thread-4> com.succez.httpserver.Response.sendContent(Response.java:219) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\WebRoot\WEB-INF\web.xml (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:210)
+	at com.succez.httpserver.Response.sendResponse(Response.java:243)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 15:32:25> <pool-1-thread-19> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendContent(Response.java:218)
+	at com.succez.httpserver.Response.sendResponse(Response.java:243)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 15:32:27> <pool-1-thread-19> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendContent(Response.java:218)
+	at com.succez.httpserver.Response.sendResponse(Response.java:243)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 17:11:55> <pool-1-thread-100> com.succez.httpserver.Response.sendResponse(Response.java:281) 
+<ERROR> 目录不存在！！！
+
+<2018-07-10 17:11:55> <pool-1-thread-99> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:234)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 20:22:36> <pool-1-thread-45> com.succez.httpserver.Response.sendContent(Response.java:219) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\Desert.jpg (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.Response.sendContent(Response.java:210)
+	at com.succez.httpserver.Response.sendResponse(Response.java:242)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-10 20:40:16> <pool-1-thread-5> com.succez.httpserver.ProcessThread.run(ProcessThread.java:42) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:233)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-11 14:22:05> <main> com.succez.httpserver.Server.service(Server.java:44) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.succez.httpserver.Server.service(Server.java:42)
+	at com.succez.httpserver.Server.main(Server.java:65)

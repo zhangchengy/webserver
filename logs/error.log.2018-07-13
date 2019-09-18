@@ -1,0 +1,101 @@
+<2018-07-13 09:05:54> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:195) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:05:54> <pool-1-thread-3> com.succez.httpserver.Response.sendResponse(Response.java:195) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:06:18> <pool-1-thread-3> com.succez.httpserver.Response.sendResponse(Response.java:195) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:13> <pool-1-thread-11> com.succez.httpserver.Response.sendResponse(Response.java:195) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:15> <pool-1-thread-11> com.succez.httpserver.Response.sendResponse(Response.java:195) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:32> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:34> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:35> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:36> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:36> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:36> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:37> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:37> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:14:37> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:194) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:47:12> <pool-1-thread-1> com.succez.httpserver.Response.sendResponse(Response.java:197) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 09:47:18> <pool-1-thread-3> com.succez.httpserver.Response.sendResponse(Response.java:197) 
+<ERROR> 目录不存在！！！
+
+<2018-07-13 10:17:20> <pool-1-thread-6> com.succez.httpserver.FileManage.sendContent(FileManage.java:94) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\logs\error.log.2018-07-05 (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.httpserver.FileManage.sendContent(FileManage.java:89)
+	at com.succez.httpserver.Response.sendResponse(Response.java:160)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:44)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-13 11:55:10> <main> com.succez.httpserver.Server.service(Server.java:44) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.succez.httpserver.Server.service(Server.java:42)
+	at com.succez.httpserver.Server.main(Server.java:65)
+<2018-07-13 15:00:54> <pool-1-thread-4> com.succez.httpserver.ProcessThread.run(ProcessThread.java:49) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.succez.httpserver.Response.sendResponse(Response.java:108)
+	at com.succez.httpserver.CenterServlet.service(CenterServlet.java:73)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2018-07-13 15:02:10> <pool-1-thread-2> com.succez.filemanager.FileManage.sendContent(FileManage.java:98) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\logs\error.log.2018-07-06 (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.succez.filemanager.FileManage.sendContent(FileManage.java:93)
+	at com.succez.httpserver.CenterServlet.handler(CenterServlet.java:31)
+	at com.succez.httpserver.CenterServlet.service(CenterServlet.java:73)
+	at com.succez.httpserver.ProcessThread.run(ProcessThread.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
