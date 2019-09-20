@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handle-request>
+<action name="DirList.Action" class="fileManager" method="listDir">
+</action>
+<action name="FileOpen.Action" class="fileManager" method="sendContent">
+</action>
+<action name="FileSave.Action" class="fileManager" method="saveFile">
+</action>
+<action name="FileDownload.Action" class="fileManager" method="fileDownload">
+</action>
+</handle-request>

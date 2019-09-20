@@ -1,0 +1,245 @@
+<2019-09-21 09:26:21> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 09:26:31> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 09:30:10> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 09:30:53> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 09:32:36> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 09:45:04> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 10:18:41> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-21 10:59:06> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:07> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:07> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:07> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:10> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:11> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:12> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:17> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:17> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:17> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:25> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 10:59:55> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:00:55> <pool-1-thread-4> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:00:55> <pool-1-thread-5> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:00:55> <pool-1-thread-5> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-1> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-4> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-5> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-3> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-21 11:03:15> <pool-1-thread-2> com.httpserver.Response.sendResponse(Response.java:102) 
+<ERROR> outputStream写入数据为空
+
+<2019-09-22 11:47:09> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-22 11:47:13> <main> com.httpserver.Server.service(Server.java:45) 
+<ERROR> 无法启动HTTP服务器：
+
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at com.httpserver.Server.service(Server.java:43)
+	at com.httpserver.Server.main(Server.java:66)
+<2019-09-22 15:45:33> <pool-1-thread-22> com.httpserver.ProcessThread.run(ProcessThread.java:47) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:103)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:30)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-22 15:45:33> <pool-1-thread-21> com.httpserver.ProcessThread.run(ProcessThread.java:47) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:103)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:30)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

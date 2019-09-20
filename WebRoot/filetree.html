@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="text/javascript" src="http://localhost:80/WebRoot/js/ajax.js"></script>
+	<script type="text/javascript" src="http://localhost:80/WebRoot/js/tree.js"></script>
+	<script type="text/javascript" src="http://localhost:80/WebRoot/js/file.js"></script>
+	<link href="http://localhost:80/WebRoot/css/style.css" rel="stylesheet" type="text/css" />
+	<title>文件根目录</title>
+</head>
+
+<body>
+	<div id="title"><img src="http://localhost:80/WebRoot/image/logo.png" /><div>文件管理系统</div></div>
+	<div id="result">
+		<ul><li><div id="rootDirNode" onclick="Tree.rootDirNode(this)" state="on"><img src="http://localhost:80/WebRoot/image/ztri.png" />
+		<img src="http://localhost:80/WebRoot/image/dir.png" />./
+		</div>
+		<ul id="tree"></ul>
+	
+	</li></ul>
+		
+	</div>
+
+	<div id="tools">
+		<div  id="down_file"><!--图片文本都可下载-->
+		下载</div>
+			 <div  id="save_file" ><!--图片没有保存功能，只有文本才可以保存 -->
+			 保存</div>
+		</div>
+
+	<textarea id="show_text"></textarea>
+	<div id="show_img_div">
+		<img src="" id="show_img"  />
+	</div>
+	<div id="welcome_div"><div id="welcome_div_text">欢迎访问赛思文件管理系统</div></div>
+<div id="right_click_menu">
+<li>新建子目录</li>
+<li>新建文件</li>
+<li>删除目录</li>
+
+</div>
+</body>
+
+</html>

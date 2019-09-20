@@ -46,6 +46,10 @@ public class ProcessThread implements Runnable {
 		catch (IOException e) {
 			logger.error("处理异常!", e);
 		}
+		catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		finally {
 			try {
 				client.close();

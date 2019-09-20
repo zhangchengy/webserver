@@ -1,0 +1,79 @@
+<2019-09-23 13:52:48> <pool-1-thread-70> com.httpserver.ProcessThread.run(ProcessThread.java:47) 
+<ERROR> 处理异常!
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:103)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:30)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-23 19:05:45> <pool-1-thread-1> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-1> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-1> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-4> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-5> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-3> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:45> <pool-1-thread-2> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:46> <pool-1-thread-2> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:46> <pool-1-thread-2> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:46> <pool-1-thread-3> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:05:46> <pool-1-thread-3> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-7> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-7> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-8> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-9> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-10> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-12> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-11> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-12> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-9> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:54> <pool-1-thread-11> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+
+<2019-09-23 19:14:55> <pool-1-thread-11> com.filemanager.FileManage.setRootdir(FileManage.java:40) 
+<ERROR> 找不到根目录配置文件
+

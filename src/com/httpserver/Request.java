@@ -65,7 +65,6 @@ public class Request {
 	public Request(InputStream inputStream) throws IOException {
 		super();
 		this.inputStream = inputStream;
-
 		init();
 
 	}
@@ -77,7 +76,7 @@ public class Request {
 	public Map<String, String> getHeadMap() {
 		return headMap;
 	}
-
+	
 	public Map<String, String> getParameterMap() {
 		return parameterMap;
 	}
@@ -92,7 +91,14 @@ public class Request {
 
 	public void handleRequestLine(String line) {
 		// 以下代码设置方法
+		try {
+			line=URLDecoder.decode(line, "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		method = line.substring(0, line.indexOf(" "));
+		//只读取http request第一行
 		// 以下代码用来设置url
 		int index1 = 0;
 		int index2 = 0;
@@ -105,7 +111,7 @@ public class Request {
 				url = null;
 		}
 		// 以下代码用来设置get请求的参数
-		if ("post".equalsIgnoreCase(getMethod()) && (line.indexOf('?') != -1)) {
+		if ("get".equalsIgnoreCase(getMethod()) && (line.indexOf('?') != -1)) {
 			String query = new String(url);
 			// index为问号的位置
 			int index = query.indexOf('?');
@@ -119,6 +125,7 @@ public class Request {
 	}
 
 	public void handleHeader(String line) {
+		
 		String[] splits = line.split(": ");
 		if (splits.length > 1) {
 			headMap.put(splits[0], splits[1]);
@@ -130,8 +137,8 @@ public class Request {
 		if ("post".equalsIgnoreCase(getMethod()) && (length = Integer.parseInt(getHeader("Content-Length"))) != 0) {
 			char[] chars = new char[length];
 			reader.read(chars);
-			String cc = new String(chars, 0, length);
-			this.parameterMap = getMapPara(cc.trim());			
+			messageString = new String(chars, 0, length);
+			this.parameterMap = getMapPara(messageString.trim());
 		}
 	}
 
@@ -177,6 +184,7 @@ public class Request {
 					logger.error("不支持的编码!!!\n", e);
 				}
 			}
+			
 			return query_pairs;
 		}
 		return null;

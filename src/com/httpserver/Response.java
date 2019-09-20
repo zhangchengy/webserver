@@ -50,10 +50,8 @@ public class Response {
 
 	//把响应头转换为响应的字符串
 	public String getParseResponse() {
-		String respMes = this.httpVersion + " " + this.status + " " + this.message + "\r\n";
-		if (!"User/FileDownload".equalsIgnoreCase(request.getUri())) {
+		String respMes = this.httpVersion + " " + this.status + " " + this.message + "\r\n";		
 			this.setContentType(request.getUri());
-		}
 		for (String key : this.headers.keySet()) {
 			respMes = respMes + key + ": " + this.headers.get(key) + "\r\n";
 		}

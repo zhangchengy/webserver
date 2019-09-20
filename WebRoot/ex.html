@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	
+	<title>文件根目录</title>
+</head>
+
+<body >
+ 
+	
+<script>
+	
+var stateObject = {};
+var title = "Wow Title";
+var newUrl = "/my/awesome/url";
+history.pushState(stateObject,title,newUrl);
+for(i=0;i<5;i  ){
+  var stateObject = {id: i};
+  var title = "Wow Title " i;
+  var newUrl = "/my/awesome/url/" i;
+  history.pushState(stateObject,title,newUrl);
+  alert(i);
+}
+window.addEventListener('popstate', function(event) {
+  readState(event.state);
+});
+function readState(data){
+  alert(data.id);
+}
+	</script> 
+	</body>
+
+</html>
