@@ -1,50 +1,69 @@
 //该函数用来获取当前目录下所有文件(夹)
-var Tree = function () {
-    this.rootTree = function () { //初始化树
-        ajax({
-            url: "User/DirAction",
-            type: "POST",
-            async: true,
-            data: {
-                dirPath: "."
-            },
-            success: this.showTree
-        });
-    }
-    this.showTree = function (data) { //显示树的目录
-        data = JSON.parse(data);
-        tree = document.getElementById("tree");
-        for (var j = 0, len = data.files.length; j < len; j++) {
-            tree.appendChild(setNode(data, j));
-        }
-    }
+var Tree = function () {};
+Tree.rootTree = function () { //初始化树
+    ajax({
+        url: "User/DirAction",
+        type: "POST",
+        async: true,
+        data: {
+            dirPath: "."
+        },
+        success: Tree.showTree
+    });
 }
 
-function setNode(data, j) {
-    var li, img;
-    li = document.createElement("li");
-    img = document.createElement('img');
-    img.setAttribute("src", "WebRoot/image/ztri.png");
-    li.appendChild(img);
-    img = document.createElement('img');
-    if (data.files[j].directory == true) {
-        li.setAttribute("onclick", "opendir(this);");
-        li.setAttribute("state", "off");
-        li.setAttribute("asked", "no");
+Tree.showTree = function (data) { //显示树的目录
+    data = JSON.parse(data);
+    tree = document.getElementById("tree");
+    for (var j = 0, len = data.files.length; j < len; j++) {
+        if (data.files[j].directory === true)
+            tree.appendChild(Tree.setNode(data, j));
+    }
+    for (var j = 0, len = data.files.length; j < len; j++) {
+        if (data.files[j].directory !== true)
+            tree.appendChild(Tree.setNode(data, j));
+    }
+}
+Tree.setNode = function (data, j) {
+    var li = document.createElement("li");
+    var div=document.createElement("div");
+    var img = document.createElement('img');
+
+    if (data.files[j].directory === true) {
+        img.setAttribute("src", "WebRoot/image/ztri.png");
+        div.appendChild(img);
+        img = document.createElement('img');
+        div.setAttribute("onclick", "Tree.opendir(this);");
+        div.setAttribute("state", "off");
+        div.setAttribute("asked", "no");
         img.setAttribute("src", "WebRoot/image/dir.png");
     } else {
-        li.setAttribute("onclick", "File.fileOpen(this);");
+        div.setAttribute("onclick", "File.fileOpen(this);");
         img.setAttribute("src", "WebRoot/image/file.png");
     }
-    li.appendChild(img);
-    i = document.createElement("i");
-    i.innerHTML = data.files[j].fileName;
-    li.setAttribute("title", data.files[j].filePath);
-    li.appendChild(i);
+    div.appendChild(img);
+    var span = document.createElement("span");
+    span.innerHTML = data.files[j].fileName;
+    div.setAttribute("title", data.files[j].filePath);
+    div.appendChild(span);
+    li.appendChild(div);
     return li;
 }
 
-function opendir(e) {
+Tree.opendir = function (e) {
+
+    var div = result.getElementsByTagName("div");
+    for (var i = 0; i < div.length; i++)
+        div[i].style.background = "";
+    e.style.background = "#dddddd";
+    var save_file = document.getElementById("down_file");
+    var down_file = document.getElementById("save_file");
+    save_file.style.display = "none";
+    down_file.style.display = "none";
+    var show_text = document.getElementById("show_text");
+    show_text.style.display = "none";
+    var show_img_div = document.getElementById("show_img_div");
+    show_img_div.style.display = "none";
     if (e.getAttribute("asked") === "no") {
         e.firstElementChild.setAttribute("src", "WebRoot/image/dtri.png");
         ajax({
@@ -59,12 +78,16 @@ function opendir(e) {
 
         function openChildDir(data) {
             data = JSON.parse(data);
-            ul = document.createElement("ul");
+            var ul = document.createElement("ul");
             for (var j = 0, len = data.files.length; j < len; j++) {
-
-                ul.appendChild(setNode(data, j));
+                if (data.files[j].directory === true)
+                    ul.appendChild(Tree.setNode(data, j));
             }
-            insertAfter(ul, e);
+            for (var j = 0, len = data.files.length; j < len; j++) {
+                if (data.files[j].directory !== true)
+                    ul.appendChild(Tree.setNode(data, j));
+            }
+            e.parentNode.appendChild(ul);
         }
         e.setAttribute("asked", "yes");
         e.setAttribute("state", "on");
@@ -81,16 +104,6 @@ function opendir(e) {
     }
 }
 
-function insertAfter(newElement, targetElement) { //在元素后插入新元素
-    var parent = targetElement.parentNode;
-    if (parent.lastChild == targetElement) {
-        parent.appendChild(newElement);
-    } else {
-        parent.insertBefore(newElement, targetElement.nextSibling);
-    }
-}
-
 window.onload = function () {
-    tree = new Tree();
-    tree.rootTree();
+    Tree.rootTree();
 }
