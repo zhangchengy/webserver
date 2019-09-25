@@ -5,10 +5,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.httpserver.ExitThread;
 
 /**
@@ -24,7 +22,7 @@ public class Server {
 
 	// 端口
 	public static final int PORT = 80;
-
+	int count=0;
 	// 线程池pool
 	private ExecutorService service = Executors.newCachedThreadPool();
 
@@ -33,12 +31,18 @@ public class Server {
 
 	// 客户端Socket
 	private Socket client;
-
+	ClassPathXmlApplicationContext cxt;
 	/**
 	 * 初始化函数
 	 * 
 	 */
 	public void service() {
+		try {
+			cxt=new ClassPathXmlApplicationContext();
+		}
+		catch (Exception e1) {
+			logger.error("初始化applicationContext.xml配置文件错误",e1);
+		}
 		try {
 			serverSocket = new ServerSocket(PORT);
 		} catch (IOException e) {
@@ -51,18 +55,20 @@ public class Server {
 			try {
 				client = serverSocket.accept();
 				logger.info("客户端" + client.getLocalSocketAddress() + "请求访问");
-				service.execute(new ProcessThread(client));
+				service.execute(new ProcessThread(client,cxt));
 			} catch (IOException e) {
 				logger.error("监听出异常", e);
 			}
 		}
 	}
 
+	
 	/**
 	 * 主函数
 	 * 
 	 */
 	public static void main(String[] args) {
+		
 		new Server().service();
 	}
 }

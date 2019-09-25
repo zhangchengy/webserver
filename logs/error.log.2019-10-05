@@ -1,0 +1,38 @@
+<2019-10-05 08:56:01> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:297)
+	... 9 more
+<2019-10-05 08:56:16> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:297)
+	... 9 more

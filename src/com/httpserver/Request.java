@@ -139,6 +139,7 @@ public class Request {
 			reader.read(chars);
 			messageString = new String(chars, 0, length);
 			this.parameterMap = getMapPara(messageString.trim());
+			
 		}
 	}
 
@@ -148,7 +149,7 @@ public class Request {
 	 */
 	private void init() {
 		try {
-			InputStreamReader inr = new InputStreamReader(this.inputStream, "UTF-8");
+			InputStreamReader inr = new InputStreamReader(this.inputStream);
 			BufferedReader reader = new BufferedReader(inr);
 
 			if (!reader.ready()) {
@@ -176,13 +177,9 @@ public class Request {
 			String[] pairs = para.split("&");
 			Map<String, String> query_pairs = new LinkedHashMap<String, String>();
 			for (String pair : pairs) {
-				int idx = pair.indexOf("=");
-				try {
-					query_pairs.put(URLDecoder.decode(pair.substring(0, idx), "UTF-8"),
-							URLDecoder.decode(pair.substring(idx + 1), "UTF-8"));
-				} catch (UnsupportedEncodingException e) {
-					logger.error("不支持的编码!!!\n", e);
-				}
+				int idx = pair.indexOf("=");				
+					query_pairs.put(pair.substring(0, idx),
+							pair.substring(idx + 1));
 			}
 			
 			return query_pairs;
@@ -203,6 +200,15 @@ public class Request {
 		for (String key : parameterMap.keySet()) {
 			if (key.equals(name)) {
 				return parameterMap.get(key);
+			}
+		}
+		return null;
+	}
+	
+	public String getParameter(String name,String charset) throws UnsupportedEncodingException {
+		for (String key : parameterMap.keySet()) {
+			if (key.equals(name)) {
+				return URLDecoder.decode(parameterMap.get(key),"UTF-8");
 			}
 		}
 		return null;

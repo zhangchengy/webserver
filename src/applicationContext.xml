@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app-class>
-<bean id="fileManager" class="com.filemanager.FileManager">
-</bean>
+    <bean id="filter" class="com.httpserver.Filter">
+    </bean>
+
+    <bean id="readWebXml" class="com.httpserver.ReadWebXml">
+    </bean>
+
+	<bean id="centerServlet" class="com.httpserver.CenterServlet">
+		<property name="filter" ref="filter"></property>
+		<property name="readWebXml" ref="readWebXml"></property>
+    </bean>
+
+    <bean id="fileManager" class="com.filemanager.FileManage">
+        <property name="readWebXml" ref="readWebXml"></property>
+    </bean>
+
+   
+
 </app-class>

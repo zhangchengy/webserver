@@ -1,0 +1,1102 @@
+<2019-09-29 09:48:01> <pool-1-thread-52> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:168)
+	... 9 more
+<2019-09-29 09:48:12> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:168)
+	... 9 more
+<2019-09-29 13:50:09> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:13> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:13> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:14> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:14> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:14> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:50:26> <pool-1-thread-128> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:52:03> <pool-1-thread-131> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:52:09> <pool-1-thread-131> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:52:27> <pool-1-thread-131> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:53:40> <pool-1-thread-140> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:55:26> <pool-1-thread-2> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:58:35> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:58:46> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 13:59:13> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:03:13> <pool-1-thread-12> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:05:28> <pool-1-thread-15> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:10:48> <pool-1-thread-17> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:13:11> <pool-1-thread-25> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:18:42> <pool-1-thread-27> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:18:45> <pool-1-thread-27> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:23:19> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:23:26> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:23:40> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:24:10> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:24:12> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:24:19> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:24:25> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:24:27> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:00> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:05> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:08> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:26> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "
+
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:34> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "
+ "
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 14:25:51> <pool-1-thread-32> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: ";
+"
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:03:38> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:03:40> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:03:41> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:03:49> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:05:36> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:06:13> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:06:17> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:06:38> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:06:45> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:06:49> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:07:20> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:07:31> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:07:37> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:07:40> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:07:46> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:08:06> <pool-1-thread-53> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:181)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:165)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:17:19> <pool-1-thread-65> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:59)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:44)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:17:19> <pool-1-thread-62> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:59)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:44)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:17:20> <pool-1-thread-63> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:59)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:44)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 15:17:20> <pool-1-thread-66> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:59)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:44)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 16:28:06> <pool-1-thread-2> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 16:29:14> <pool-1-thread-8> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 16:31:08> <pool-1-thread-1> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 16:32:38> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 16:35:48> <pool-1-thread-1> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 17:04:43> <pool-1-thread-10> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.NullPointerException
+	at com.httpserver.CenterServlet.service(CenterServlet.java:32)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 17:07:09> <pool-1-thread-5> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 系统找不到指定的路径。
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:293)
+	... 9 more
+<2019-09-29 17:10:33> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 系统找不到指定的路径。
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:293)
+	... 9 more
+<2019-09-29 17:11:05> <pool-1-thread-7> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 系统找不到指定的路径。
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:293)
+	... 9 more
+<2019-09-29 17:12:54> <pool-1-thread-13> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 系统找不到指定的路径。
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:293)
+	... 9 more
+<2019-09-29 17:19:46> <pool-1-thread-21> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "("
+	at java.net.URLDecoder.decode(URLDecoder.java:194)
+	at com.httpserver.Request.getMapPara(Request.java:183)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:166)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-09-29 17:45:42> <pool-1-thread-5> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:294)
+	... 9 more
+<2019-09-29 17:54:24> <pool-1-thread-9> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:294)
+	... 9 more
+<2019-09-29 17:55:11> <pool-1-thread-3> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 2c
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:295)
+	... 9 more
+<2019-09-29 18:01:25> <pool-1-thread-4> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 20
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:295)
+	... 9 more
+<2019-09-29 18:03:35> <pool-1-thread-5> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:295)
+	... 9 more
+<2019-09-29 18:04:22> <pool-1-thread-4> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:37)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 20
+	at java.util.Base64$Decoder.decode0(Base64.java:714)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:295)
+	... 9 more
+<2019-09-29 19:08:37> <pool-1-thread-2> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.httpserver.Request.getMapPara(Request.java:182)
+	at com.httpserver.Request.handlePostData(Request.java:141)
+	at com.httpserver.Request.init(Request.java:166)
+	at com.httpserver.Request.<init>(Request.java:68)
+	at com.httpserver.CenterServlet.<init>(CenterServlet.java:21)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

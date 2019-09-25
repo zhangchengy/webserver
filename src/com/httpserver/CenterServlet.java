@@ -11,41 +11,50 @@ import org.slf4j.LoggerFactory;
 
 public class CenterServlet {
 	private static final Logger logger = LoggerFactory.getLogger(Response.class);
-	private Request request;
-	private Response response;
-
-	private ClassPathXmlApplicationContext ctx;
-	private CenterFilter centerFilter;
+	private Filter filter;
 	private ReadWebXml readWebXml;
-	public CenterServlet(OutputStream outputStream, InputStream inputStream) throws Exception {
-		this.request = new Request(inputStream);
-		this.response = new Response(outputStream, request);
-		readWebXml=new ReadWebXml();
-		ctx = new ClassPathXmlApplicationContext(this.request, this.response);
-		centerFilter =new CenterFilter();
+	public CenterServlet() throws Exception {
+	}
+	
+	public Filter getFilter() {
+		return filter;
 	}
 
-	public void service() throws Exception {
+	public void setFilter(Filter filter) {
+		this.filter = filter;
+	}
+
+	public ReadWebXml getReadWebXml() {
+		return readWebXml;
+	}
+
+	public void setReadWebXml(ReadWebXml readWebXml) {
+		this.readWebXml = readWebXml;
+	}
+
+	public void service(OutputStream outputStream, InputStream inputStream,ClassPathXmlApplicationContext cxt) throws Exception {
+		Request request = new Request(inputStream);
+		Response response = new Response(outputStream, request);
 		String uri=request.getUri();
 		if(uri.contains(readWebXml.getValue("filter-mapping"))){
-			FilterBean action=(FilterBean) centerFilter.getFilter(uri);
+			FilterBean action=(FilterBean) filter.getFilter(uri);
 			String clazz=action.getClazz();
 			String methodName=action.getMethodName();
-			Object obj=ctx.getBean(clazz);
-			Method method=obj.getClass().getDeclaredMethod(methodName);
+			Object obj=cxt.getBean(clazz);
+			Method method=obj.getClass().getDeclaredMethod(methodName,Request.class,Response.class);
 			method.setAccessible(true);
-			method.invoke(obj);		
+			method.invoke(obj,request,response);		
 		}
 		else{
 			if("".equals(request.getUri())){
-				sendStaticFile(readWebXml.getValue("welcome-file"));
+				sendStaticFile(readWebXml.getValue("welcome-file"),response);
 			}
 			else
-				sendStaticFile(request.getUri());			
+				sendStaticFile(request.getUri(),response);			
 		}
 	}
 	
-	public void sendStaticFile(String uri) throws IOException{
+	public void sendStaticFile(String uri,Response response) throws IOException{
 		File file=new File(uri);
 		FileInputStream fis = null;
 		byte[] b = null;
@@ -54,7 +63,8 @@ public class CenterServlet {
 			b = new byte[fis.available()];
 			fis.read(b);
 			response.sendResponse(b);
-		} catch (IOException e) {			
+		} catch (IOException e) {	
+			response.setStatus(404);
 			response.sendResponse(("文件可能刚刚被删除\r\n请尝试刷新来重新读取文件目录").getBytes());
 		} finally {
 			if (fis != null) {

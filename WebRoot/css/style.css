@@ -1,45 +1,52 @@
 * {
 	padding: 0;
 	margin: 0;
-	
+	user-select: none;
 	font-style: normal;
 }
 
 #dir_img {
-	background-image: url(http://localhost:80/WebRoot/image/dir.png);
+	background-image: url(../image/dir.png);
 	user-select: none;
 	background-repeat: no-repeat;
 	padding-left: 10px;
 }
 
 #file_img {
-	background-image: url(http://localhost:80/WebRoot/image/file.png);
+	background-image: url(../image/file.png);
 	user-select: none;
 	background-repeat: no-repeat;
 	padding-left: 10px;
 }
 
 #result {
+	position: absolute;
 	overflow: auto;
 	-moz-user-select: -moz-none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	width: 30%;
-	height: 75%;
-	float: left;
+	width: 25%;
+	top: 70px;
 	font-size: 14px;
-	margin-left:80px;
-	padding-top:5px;
-	margin-top:50px;
-	margin-bottom:30px;
+	margin-left: 50px;
+	padding-top: 5px;
+	margin-top: 70px;
+	bottom: 50px;
 	border-top: solid 1px black;
 }
 
 #result li div:hover {
 	cursor: pointer;
-	background: #dedede;
+	background: #d0d0d0;
+}
+
+#result li div {
+	height: 18px;
+	width: 100%;
+	display: inline-block;
+	white-space: nowrap;
 }
 
 #result li img {
@@ -47,94 +54,93 @@
 }
 
 #title {
-	height: 80px;
+	user-select: none;
+	height: 70px;
 	width: 100%;
 	background: #6699FF;
 	color: white;
 }
-#title div{
-	margin-top:21px;
-	font-size:40px;
-	float:left;
-	
+
+#title div {
+	margin-top: 18px;
+	font-size: 34px;
+	float: left;
+
 }
 
 #title img {
 	width: 180px;
-	height: 60px;
+	height: 50px;
 	margin-left: 20px;
-	margin-top:10px;
-	float:left;
+	margin-top: 10px;
+	float: left;
 }
-#tree{
-	margin-left: 20px;
+
+#tree {
+	margin-left: 18px;
 	list-style: none;
 }
 
 #tree ul {
-	margin-left: 20px;
+	margin-left: 18px;
 	list-style: none;
-}
-#tree ul li{
-	white-space:nowrap;
 }
 
 #tools {
-	border-left:1px solid black;
-	border-bottom:1px solid black;
-	height:50px;
-	width: 53%;
-	float: left;
+	position: absolute;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 45px;
+	width: 56vw;
+	float: right;
 	user-select: none;
-	font-size: 18px;
-	margin-left:80px;
+	color: #306de7;
+	right: 80px;
+	left: 38vw;
 	vertical-align: text-bottom;
-	display:none;
+	display: none;
 }
 
 
 #show_text {
-	white-space:nowrap;
-	width: 53%;
-	background: #F7F7F7;
+	width: 56vw;
+	white-space: nowrap;
 	overflow: auto;
-	height: 72%;
-	float: left;
-	border:solid 1px black;
+	background: #F7F7F7;
+	border: solid 1px black;
 	font-size: 14px;
 	resize: none;
-	margin-bottom:30px;
+	position: absolute;
+	right: 80px;
+	top: 135px;
+	left: 38vw;
+	bottom: 50px;
 	display: none;
-	margin-top: 30px;
-	margin-left:80px;
 }
 
 #show_img_div {
-	width: 53%;
-	height: 72%;
-	float: left;
-	margin-top: 30px;
+	position: absolute;
+	right: 80px;
+	top: 135px;
+	left: 38vw;
+	width: 56vw;
+	bottom: 50px;
 	display: none;
-	margin-left:80px;
-	margin-bottom:30px;
 }
+
 #welcome_div {
-	width: 53%;
-	height: 72%;
-	float: left;
-	margin-top: 50px;
+	position: absolute;
+	right: 80px;
+	top: 70px;
+	margin-top: 65px;
 	display: block;
-	margin-left:80px;
-	margin-bottom:30px;
-	background-image: url(http://localhost:80/WebRoot/image/welcome.jpg);
-}
-#welcome_div_text{
-	margin:0 auto 0 auto;
-	width: 50%;
-	height:100px;
-	font-size:42px;
-	margin-top:350px;
-	
+	font-size: 2.5vw;
+	left: 40vw;
+	text-align: center;
+	bottom: 50px;
+	line-height: 50vh;
+	background-image: url(../image/welcome.jpg);
+	background-size: 100% 100%;
 }
 
 #show_img {
@@ -143,47 +149,95 @@
 }
 
 #save_file {
-	margin-top:10px;
+	position: absolute;
+	margin-top: 5px;
 	vertical-align: top;
 	user-select: none;
-	margin-left: 15px;
+	margin-left: 125px;
 	width: 55px;
 	height: 30px;
 	font-style: normal;
 	font-size: 20px;
 	cursor: pointer;
 	float: left;
-	padding-left:36px;
-	background-image: url(http://localhost:80/WebRoot/image/save.jpg);
+	padding-left: 36px;
+	background-image: url(../image/save.png);
 	background-repeat: no-repeat;
-	background-position: 10px 3px;
-	border:1px solid black;
+	background-position: 10px 1px;
+	border: 1px solid #306de7;
 	border-radius: 5px;
-	display:none;
-}
-
-#right_click_menu{
-	width:80px;
-	height:50px;
-	position: absolute;
-	z-index: 1;
-	background: #dddddd;
-	opacity:0.8;
 	display: none;
 }
 
-#right_click_menu li{
+#right_click_menu {
+	width: 120px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	border: 2px solid #dddddd;
+	background: white;
+	display: none;
+}
+
+#right_click_menu li {
 	list-style: none;
-	font-size:12px;
+	height: 25px;
+	font-size: 12px;
 	-moz-user-select: -moz-none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 20px;
 }
+
+#right_click_menu li:hover {
+	background: #bbb1b1;
+}
+
+#temp_li {
+	cursor: text;
+	border: 1px solid #bbb1b1;
+	white-space: nowrap;
+	height: 18px;
+	width: 100%;
+}
+
+#temp_input {
+	width: 50%;
+	border: none;
+}
+
+#cancel_button {
+	color: white;
+	background: #e64e4e;
+	width: 50px;
+	height: 18px;
+	border: none;
+	float: right;
+	cursor: pointer;
+}
+
+#ensure_button {
+	cursor: pointer;
+	color: white;
+	background: green;
+	width: 50px;
+	height: 18px;
+	border: none;
+	float: right;
+}
+
+#right_click_menu_deletedir {
+	border-top: 1px solid #dedede;
+}
+
 #down_file {
-	display:none;
-	margin-top:10px;
+	position: absolute;
+	display: none;
+	margin-top: 5px;
 	vertical-align: top;
 	user-select: none;
 	margin-left: 15px;
@@ -193,10 +247,31 @@
 	font-size: 20px;
 	cursor: pointer;
 	float: left;
-	padding-left:32px;
-	background: url(http://localhost:80/WebRoot/image/download.png);
+	padding-left: 32px;
+	background: url(../image/download.png);
 	background-repeat: no-repeat;
-	border:1px solid black;
+	border: 1px solid #306de7;
+	background-position: 10px 2px;
+	border-radius: 5px;
+}
+
+#delete_file {
+	position: absolute;
+	display: none;
+	margin-top: 5px;
+	vertical-align: top;
+	user-select: none;
+	margin-left: 250px;
+	width: 90px;
+	height: 30px;
+	font-style: normal;
+	font-size: 20px;
+	cursor: pointer;
+	float: left;
+	padding-left: 40px;
+	background: url(../image/delete.png);
+	background-repeat: no-repeat;
+	border: 1px solid #306de7;
 	background-position: 10px 2px;
 	border-radius: 5px;
 }

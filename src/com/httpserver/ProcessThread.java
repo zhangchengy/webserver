@@ -7,6 +7,7 @@ import java.net.Socket;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 /**
  * 用于实现接口完成服务器与客户端通信
  * <p>Copyright: Copyright (c) 2018</p>
@@ -16,47 +17,51 @@ import org.slf4j.LoggerFactory;
  */
 
 public class ProcessThread implements Runnable {
-	
+
 	private static final Logger logger = LoggerFactory.getLogger(ProcessThread.class);
 
 	private Socket client;
-	
-	public ProcessThread(Socket client) {
+
+	private ClassPathXmlApplicationContext cxt;
+
+	public ProcessThread(Socket client, ClassPathXmlApplicationContext cxt) {
 		super();
 		this.client = client;
+		this.cxt = cxt;
 	}
 
 	public void run() {
+		InputStream inputStream = null;
 		try {
-			InputStream inputStream = client.getInputStream();
-			while (inputStream.available() == 0) {//等待响应数据的发送
-				try {
-					Thread.sleep(20);
-				}
-				catch (InterruptedException e) {
-					logger.error("等待失败!!!");
-				}
-			}
-			if (inputStream.available() != 0) {		
-				OutputStream outputStream = client.getOutputStream();				
-				CenterServlet centerServlet = new CenterServlet(outputStream,inputStream);
-				centerServlet.service();						
-			}
+			inputStream = client.getInputStream();
 		}
 		catch (IOException e) {
-			logger.error("处理异常!", e);
+			logger.error("建立客户端输入数据流错误:",e);
+		}
+		try {
+			while (inputStream.available() == 0) {
+				Thread.sleep(20);
+			}
+		}
+		catch (IOException | InterruptedException e) {
+			logger.error("等待时间过长，未接收数据",e);
+		}
+
+		try {
+			if (inputStream.available() != 0) {
+				CenterServlet centerServlet =(CenterServlet) cxt.getBean("centerServlet");
+				centerServlet.service(client.getOutputStream(), inputStream, cxt);
+			}
 		}
 		catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.error("建立客户端输出数据流错误",e);
 		}
-		finally {
-			try {
-				client.close();
-			}
-			catch (IOException e) {
-				logger.error("客户端关闭异常!", e);
-			}
+		try {
+			client.close();
+		}
+		catch (IOException e) {
+
+			logger.error("关闭连接出错",e);
 		}
 	}
 }

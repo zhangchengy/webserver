@@ -10,18 +10,7 @@ public class FileBean {
 	String filePath;
 	String fileName;
 	boolean isDirectory;
-	String lastModify;
-	//int level;
-	long size;
-
-	public String getLastModify() {
-		return lastModify;
-	}
-
-	public void setLastModify(String lastModify) {
-		this.lastModify = lastModify;
-	}
-
+	int childrenSum;
 	public String getFileName() {
 		return fileName;
 	}
@@ -29,14 +18,6 @@ public class FileBean {
 	public void setFileName(String fileName) {
 		this.fileName = fileName;
 	}
-
-	//public int getLevel() {
-	//	return level;
-	//}
-
-	//public void setLevel(int level) {
-	//	this.level = level;
-	//}
 
 	public String getFilePath() {
 		return filePath;
@@ -54,12 +35,14 @@ public class FileBean {
 		this.isDirectory = isDirectory;
 	}
 
-	public long getSize() {
-		return size;
+	public int getChildrenSum() {
+		return childrenSum;
 	}
 
-	public void setSize(long size) {
-		this.size = size;
+	public void setChildrenSum(int childrenSum) {
+		this.childrenSum = childrenSum;
 	}
+
+	
 
 }

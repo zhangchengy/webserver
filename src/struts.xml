@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handle-request>
-<action name="DirList.Action" class="fileManager" method="listDir">
-</action>
-<action name="FileOpen.Action" class="fileManager" method="sendContent">
-</action>
-<action name="FileSave.Action" class="fileManager" method="saveFile">
-</action>
-<action name="FileDownload.Action" class="fileManager" method="fileDownload">
-</action>
+    <action name="DirList.Action" class="fileManager" method="listDir">
+    </action>
+
+    <action name="FileOpen.Action" class="fileManager" method="sendContent">
+    </action>
+
+    <action name="FileSave.Action" class="fileManager" method="saveFile">
+    </action>
+
+    <action name="FileDownload.Action" class="fileManager" method="fileDownload">
+    </action>
+    
+    <action name="SendFilePath.Action" class="fileManager" method="sendPageFromAddressBar">
+    </action>
+
+    <action name="AddressBarDirList.Action" class="fileManager" method="listDirFromAddressBar">
+    </action>
+    
+    <action name="NewChildDir.Action" class="fileManager" method="newChildDir">
+    </action>
+
+    <action name="NewFile.Action" class="fileManager" method="newFile">
+    </action>
+
+    <action name="DeleteDir.Action" class="fileManager" method="deleteDir">
+    </action>
+
+    <action name="DeleteFile.Action" class="fileManager" method="deleteFile">
+    </action>
+
+     <action name="UpLoadFile.Action" class="fileManager" method="uploadFile">
+    </action>
+    
 </handle-request>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <system-info>
-<welcome-file>WebRoot/filetree.html</welcome-file>
-<filter-mapping>.Action</filter-mapping>
-<root-address>.</root-address>
+    <welcome-file>WebRoot/filetree.html</welcome-file>
+
+    <filter-mapping>.Action</filter-mapping>
+
+    <root-address>.</root-address>
+    
 </system-info>
