@@ -1,0 +1,110 @@
+<2019-10-11 13:59:50> <pool-1-thread-149> com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:211) 
+<ERROR> 发送响应数据失败
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:208)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 13:59:51> <pool-1-thread-148> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 15:05:20> <pool-1-thread-267> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 16:50:07> <pool-1-thread-424> com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:211) 
+<ERROR> 发送响应数据失败
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:208)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 16:50:07> <pool-1-thread-422> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 17:12:32> <pool-1-thread-466> com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:211) 
+<ERROR> 发送响应数据失败
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:208)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-11 19:26:12> <pool-1-thread-643> com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:211) 
+<ERROR> 发送响应数据失败
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:208)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

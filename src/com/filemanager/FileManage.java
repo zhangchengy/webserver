@@ -22,18 +22,10 @@ public class FileManage {
 	private static final Logger logger = LoggerFactory.getLogger(FileManage.class);
 
 	private String rootDir;
-
 	private ReadWebXml readWebXml;
 
 	public FileManage() throws Exception {
-	}
-
-	public void setReadWebXml(ReadWebXml readWebXml) {
-		this.readWebXml = readWebXml;
-	}
-
-	public ReadWebXml getReadWebXml() {
-		return readWebXml;
+		readWebXml=new ReadWebXml();
 	}
 
 	// 修改后保存文件
@@ -49,12 +41,10 @@ public class FileManage {
 			writer.flush();
 			writer.close();
 			obj.put("msg", true);
-
 		}
 		catch (IOException e) {
 			logger.error("IO错误", e);
 			obj.put("msg", false);
-
 		}
 		finally {
 			if (writer != null) {
@@ -67,7 +57,6 @@ public class FileManage {
 			}
 			response.sendResponse(obj.toString().getBytes("UTF-8"));
 		}
-
 	}
 
 	// 打印指定目录下文件及文件夹
@@ -116,7 +105,6 @@ public class FileManage {
 		catch (IOException e) {
 			logger.error("读入文件输出异常", e);
 			response.sendResponse(("文件可能刚刚被删除\r\n请尝试刷新来重新读取文件目录").getBytes());
-
 		}
 		finally {
 			if (fis != null) {
@@ -275,7 +263,6 @@ public class FileManage {
 		File[] f;
 		if (file.isFile() || (file.isDirectory() && file.listFiles().length == 0))
 			file.delete();
-
 		else {
 			f = file.listFiles();
 			for (File ff : f) {
@@ -301,6 +288,7 @@ public class FileManage {
 				out.write(b);
 				out.close();
 				json.put("msg", true);
+				json.put("fileName",fileName);
 			}
 			catch (IOException e) {
 				logger.error("IO错误", e);

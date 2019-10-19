@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * <p>Copyright: Copyright (c) 2018</p>
  * <p>succez</p>
  * @author zhangchengy
- * @createdate 2018年7月10日
+ * @createdate 2019年9月12日
  */
 
 public class ProcessThread implements Runnable {
@@ -22,12 +22,11 @@ public class ProcessThread implements Runnable {
 
 	private Socket client;
 
-	private ClassPathXmlApplicationContext cxt;
-
-	public ProcessThread(Socket client, ClassPathXmlApplicationContext cxt) {
+	private CenterServlet centerServlet;
+	public ProcessThread(Socket client,CenterServlet centerServlet) {
 		super();
 		this.client = client;
-		this.cxt = cxt;
+		this.centerServlet=centerServlet;
 	}
 
 	public void run() {
@@ -49,8 +48,7 @@ public class ProcessThread implements Runnable {
 
 		try {
 			if (inputStream.available() != 0) {
-				CenterServlet centerServlet =(CenterServlet) cxt.getBean("centerServlet");
-				centerServlet.service(client.getOutputStream(), inputStream, cxt);
+				centerServlet.service(client.getOutputStream(), inputStream);
 			}
 		}
 		catch (Exception e) {

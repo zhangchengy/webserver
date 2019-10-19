@@ -1,0 +1,444 @@
+<2019-10-14 00:32:52> <pool-1-thread-1662> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 00:42:17> <pool-1-thread-1679> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 01:06:44> <pool-1-thread-1712> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 01:09:56> <pool-1-thread-1720> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 02:41:56> <pool-1-thread-1825> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 02:44:08> <pool-1-thread-1821> com.filemanager.FileManage.sendContent(FileManage.java:117) 
+<ERROR> 读入文件输出异常
+
+java.io.FileNotFoundException: .\.settings\ddd\df\a.txt (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.filemanager.FileManage.sendContent(FileManage.java:112)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 02:44:08> <pool-1-thread-1821> com.httpserver.Response.sendResponse(Response.java:100) 
+<ERROR> outputStream写入数据为空
+
+<2019-10-14 02:46:18> <pool-1-thread-1835> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 02:46:26> <pool-1-thread-1835> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 02:46:31> <pool-1-thread-1833> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 03:57:36> <pool-1-thread-1936> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 03:58:42> <pool-1-thread-1939> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 03:58:47> <pool-1-thread-1937> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:00:13> <pool-1-thread-1936> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:06:47> <pool-1-thread-1951> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:07:08> <pool-1-thread-1952> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:08:15> <pool-1-thread-1950> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:13:21> <pool-1-thread-1958> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:14:53> <pool-1-thread-1966> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:50:46> <pool-1-thread-2029> com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:211) 
+<ERROR> 发送响应数据失败
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDirFromAddressBar(FileManage.java:208)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:51:13> <pool-1-thread-2033> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:51:14> <pool-1-thread-2031> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:51:14> <pool-1-thread-2029> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:51:14> <pool-1-thread-2032> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 04:51:14> <pool-1-thread-2030> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:97)
+	at com.httpserver.CenterServlet.sendStaticFile(CenterServlet.java:68)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:53)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-14 10:37:28> <pool-1-thread-155> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Byte.parseByte(Byte.java:149)
+	at java.lang.Byte.parseByte(Byte.java:175)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:296)
+	... 9 more
+<2019-10-14 10:39:36> <pool-1-thread-161> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Byte.parseByte(Byte.java:149)
+	at java.lang.Byte.parseByte(Byte.java:175)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:296)
+	... 9 more
+<2019-10-14 10:42:43> <pool-1-thread-168> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Byte.parseByte(Byte.java:149)
+	at java.lang.Byte.parseByte(Byte.java:175)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:296)
+	... 9 more
+<2019-10-14 10:42:51> <pool-1-thread-168> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Byte.parseByte(Byte.java:149)
+	at java.lang.Byte.parseByte(Byte.java:175)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:296)
+	... 9 more
+<2019-10-14 10:43:19> <pool-1-thread-166> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Byte.parseByte(Byte.java:149)
+	at java.lang.Byte.parseByte(Byte.java:175)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:296)
+	... 9 more

@@ -2,9 +2,19 @@
 	padding: 0;
 	margin: 0;
 	user-select: none;
-	font-style: normal;
 }
 
+*:focus {
+	outline: none;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-style: normal;
+}
 #dir_img {
 	background-image: url(../image/dir.png);
 	user-select: none;
@@ -27,24 +37,24 @@
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	width: 25%;
-	top: 70px;
-	font-size: 14px;
-	margin-left: 50px;
+	width: 360px;
+	background:rgba(176, 197, 235, 0.4);
+	font-size: 12px;
+	margin-left: 30px;
 	padding-top: 5px;
-	margin-top: 70px;
+	top: 50px;
 	bottom: 50px;
-	border-top: solid 1px black;
+	border-top: solid 1px #6699FF;
 }
 
 #result li div:hover {
 	cursor: pointer;
-	background: #d0d0d0;
+	background:rgba(144, 167, 206, 0.7);
 }
 
-#result li div {
+#result_li  div {
 	height: 18px;
-	width: 100%;
+	width: 90%;
 	display: inline-block;
 	white-space: nowrap;
 }
@@ -54,88 +64,77 @@
 }
 
 #title {
+	position: absolute;
 	user-select: none;
-	height: 70px;
+	height: 50px;
 	width: 100%;
 	background: #6699FF;
 	color: white;
 }
 
 #title div {
-	margin-top: 18px;
-	font-size: 34px;
+	margin-top: 14px;
+	font-size: 24px;
 	float: left;
-
 }
 
 #title img {
-	width: 180px;
-	height: 50px;
-	margin-left: 20px;
-	margin-top: 10px;
+	width: 185px;
+	height: 36px;
+	margin-left: 30px;
+	margin-top: 8px;
 	float: left;
 }
 
-#tree {
-	margin-left: 18px;
-	list-style: none;
-}
-
-#tree ul {
+#result_li ul {
 	margin-left: 18px;
 	list-style: none;
 }
 
 #tools {
 	position: absolute;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
 	height: 45px;
-	width: 56vw;
-	float: right;
+	top: 55px;
 	user-select: none;
 	color: #306de7;
-	right: 80px;
-	left: 38vw;
+	left: 430px;
 	vertical-align: text-bottom;
 	display: none;
 }
-
-
-#show_text {
-	width: 56vw;
+#show_text textarea {
+	width:100%;
+	height:100%;
 	white-space: nowrap;
-	overflow: auto;
 	background: #F7F7F7;
-	border: solid 1px black;
+	border: solid 1px #306de7;
 	font-size: 14px;
 	resize: none;
+}
+#show_text  {
 	position: absolute;
-	right: 80px;
-	top: 135px;
-	left: 38vw;
+	left:430px;
+	top: 100px;
+	right:50px;
 	bottom: 50px;
 	display: none;
 }
 
 #show_img_div {
 	position: absolute;
-	right: 80px;
-	top: 135px;
-	left: 38vw;
-	width: 56vw;
+	right: 50px;
+	top: 100px;
+	left: 430px;
 	bottom: 50px;
 	display: none;
 }
 
 #welcome_div {
 	position: absolute;
-	right: 80px;
-	top: 70px;
-	margin-top: 65px;
+	right: 50px;
+	top: 100px;
 	display: block;
 	font-size: 2.5vw;
-	left: 40vw;
+	left: 430px;
 	text-align: center;
 	bottom: 50px;
 	line-height: 50vh;
@@ -146,27 +145,6 @@
 #show_img {
 	width: 100%;
 	height: 100%;
-}
-
-#save_file {
-	position: absolute;
-	margin-top: 5px;
-	vertical-align: top;
-	user-select: none;
-	margin-left: 125px;
-	width: 55px;
-	height: 30px;
-	font-style: normal;
-	font-size: 20px;
-	cursor: pointer;
-	float: left;
-	padding-left: 36px;
-	background-image: url(../image/save.png);
-	background-repeat: no-repeat;
-	background-position: 10px 1px;
-	border: 1px solid #306de7;
-	border-radius: 5px;
-	display: none;
 }
 
 #right_click_menu {
@@ -194,7 +172,7 @@
 }
 
 #right_click_menu li:hover {
-	background: #bbb1b1;
+	background: rgba(98, 143, 221, 0.4);
 }
 
 #temp_li {
@@ -203,6 +181,8 @@
 	white-space: nowrap;
 	height: 18px;
 	width: 100%;
+	background: white;
+	margin-left:16px;
 }
 
 #temp_input {
@@ -240,7 +220,6 @@
 	margin-top: 5px;
 	vertical-align: top;
 	user-select: none;
-	margin-left: 15px;
 	width: 55px;
 	height: 30px;
 	font-style: normal;
@@ -251,38 +230,46 @@
 	background: url(../image/download.png);
 	background-repeat: no-repeat;
 	border: 1px solid #306de7;
-	background-position: 10px 2px;
+	background-position: 8px 2px;
 	border-radius: 5px;
 }
-
+#save_file {
+	position: absolute;
+	margin-top: 5px;
+	vertical-align: top;
+	user-select: none;
+	margin-left: 110px;
+	width: 55px;
+	height: 30px;
+	font-style: normal;
+	font-size: 20px;
+	cursor: pointer;
+	float: left;
+	padding-left: 34px;
+	background-image: url(../image/save.png);
+	background-repeat: no-repeat;
+	background-position: 8px 1px;
+	border: 1px solid #306de7;
+	border-radius: 5px;
+	display: none;
+}
 #delete_file {
 	position: absolute;
 	display: none;
 	margin-top: 5px;
 	vertical-align: top;
 	user-select: none;
-	margin-left: 250px;
+	margin-left: 223px;
 	width: 90px;
 	height: 30px;
 	font-style: normal;
 	font-size: 20px;
 	cursor: pointer;
 	float: left;
-	padding-left: 40px;
+	padding-left: 28px;
 	background: url(../image/delete.png);
 	background-repeat: no-repeat;
 	border: 1px solid #306de7;
-	background-position: 10px 2px;
+	background-position: 4px 2px;
 	border-radius: 5px;
-}
-
-*:focus {
-	outline: none;
-}
-
-html,
-body {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
 }

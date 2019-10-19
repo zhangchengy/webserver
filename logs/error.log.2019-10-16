@@ -1,0 +1,148 @@
+<2019-10-16 08:38:50> <pool-1-thread-554> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDir(FileManage.java:101)
+	... 8 more
+<2019-10-16 08:38:50> <pool-1-thread-550> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDir(FileManage.java:101)
+	... 8 more
+<2019-10-16 08:38:50> <pool-1-thread-549> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDir(FileManage.java:101)
+	... 8 more
+<2019-10-16 08:38:50> <pool-1-thread-551> com.httpserver.ProcessThread.run(ProcessThread.java:57) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at com.httpserver.Response.sendResponse(Response.java:98)
+	at com.filemanager.FileManage.listDir(FileManage.java:101)
+	... 8 more
+<2019-10-16 19:42:37> <pool-1-thread-499> com.filemanager.FileManage.uploadFile(FileManage.java:306) 
+<ERROR> IO错误
+
+java.io.FileNotFoundException: [object HTMLDivElement]\a.txt (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-16 19:43:10> <pool-1-thread-499> com.filemanager.FileManage.uploadFile(FileManage.java:306) 
+<ERROR> IO错误
+
+java.io.FileNotFoundException: [object HTMLDivElement]\a.txt (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-16 19:43:20> <pool-1-thread-499> com.filemanager.FileManage.uploadFile(FileManage.java:306) 
+<ERROR> IO错误
+
+java.io.FileNotFoundException: [object HTMLDivElement]\e.png (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+<2019-10-16 19:43:29> <pool-1-thread-499> com.filemanager.FileManage.uploadFile(FileManage.java:306) 
+<ERROR> IO错误
+
+java.io.FileNotFoundException: [object HTMLDivElement]\d.js (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.filemanager.FileManage.uploadFile(FileManage.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:46)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

@@ -3,59 +3,54 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<script type="text/javascript" src="WebRoot/js/ajax.js"></script>
 	<script type="text/javascript" src="WebRoot/js/tree.js"></script>
 	<script type="text/javascript" src="WebRoot/js/file.js"></script>
-	<script type="text/javascript" src="WebRoot/js/addressbar.js"></script>
+	<script type="text/javascript" src="WebRoot/js/filemanage.js"></script>
 	<link href="WebRoot/css/style.css" rel="stylesheet" type="text/css" />
 	<title>文件根目录</title>
 </head>
 
 <body>
-	<div id="title"><img src="WebRoot/image/logo.png" />
+
+	<div id="title">
+		<img src="WebRoot/image/logo.png" />
 		<div>文件管理系统</div>
 	</div>
+
 	<div id="result">
 		<ul>
-			<li>
-				<div id="rootDirNode" onclick="tree.rootDirNode(this)" state="on" isNullDir="false" asked="yes"
-					title=".">
+			<li id="result_li">
+				<div id="rootDirNode" childrenSum="1" state="off" asked="no" title=".">
 					<img src="WebRoot/image/dtri.png" />
 					<img src="WebRoot/image/dir.png" />
 					<span>./</span>
 				</div>
-				<ul id="tree"></ul>
-
 			</li>
 		</ul>
-
 	</div>
 
 	<div id="tools">
-		<div id="down_file">
-			<!--图片文本都可下载-->
-			下载</div>
-		<div id="save_file">
-			<!--图片没有保存功能，只有文本才可以保存 -->
-			保存</div>
-		<div id="delete_file">
-			<!--图片没有保存功能，只有文本才可以保存 -->
-			删除文件</div>
+		<div id="down_file">下载</div>
+		<!--图片文本都可下载-->
+		<div id="save_file">保存</div>
+		<!--图片没有保存功能，只有文本才可以保存 -->
+		<div id="delete_file">删除文件</div>
+		<!--图片没有保存功能，只有文本才可以保存 -->
 	</div>
 
-	<textarea id="show_text"></textarea>
+	<div id="show_text">
+		<textarea></textarea>
+	</div>
+
 	<div id="show_img_div">
 		<img src="" id="show_img" />
 	</div>
-	<div id="welcome_div">欢迎访问赛思文件管理系统</div>
-	<div id="right_click_menu">
-		<li id="right_click_menu_new_childdir" onclick="file.newChildDir()">新建子目录</li>
-		<li id="right_click_menu_newfile" onclick="file.newFile()">新建文件</li>
-		<li id="right_click_menu_deletedir" onclick="file.deleteDir()">删除目录</li>
 
-	</div>
+	<div id="welcome_div">欢迎访问赛思文件管理系统</div>
+
 </body>
 
 </html>

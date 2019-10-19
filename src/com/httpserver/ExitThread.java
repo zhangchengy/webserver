@@ -7,10 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
  * 用于管理线程以及关闭服务器的主类
- * <p>Copyright: Copyright (c) 2018</p>
+ * <p>Copyright: Copyright (c) 2019</p>
  * <p>succez</p>
  * @author zhangchengy
- * @createdate 2018年7月10日
+ * @createdate 2019年9月12日
  */
 public class ExitThread extends Thread {
 

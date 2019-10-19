@@ -11,33 +11,21 @@ import org.slf4j.LoggerFactory;
 
 public class CenterServlet {
 	private static final Logger logger = LoggerFactory.getLogger(Response.class);
-	private Filter filter;
+	private FilterMapping filterMapping;
 	private ReadWebXml readWebXml;
-	public CenterServlet() throws Exception {
+	private ClassPathXmlApplicationContext cxt;
+	public CenterServlet(FilterMapping filterMapping,ReadWebXml readWebXml,ClassPathXmlApplicationContext cxt) throws Exception {
+		this.filterMapping = filterMapping;
+		this.readWebXml = readWebXml;
+		this.cxt=cxt;
 	}
 	
-	public Filter getFilter() {
-		return filter;
-	}
-
-	public void setFilter(Filter filter) {
-		this.filter = filter;
-	}
-
-	public ReadWebXml getReadWebXml() {
-		return readWebXml;
-	}
-
-	public void setReadWebXml(ReadWebXml readWebXml) {
-		this.readWebXml = readWebXml;
-	}
-
-	public void service(OutputStream outputStream, InputStream inputStream,ClassPathXmlApplicationContext cxt) throws Exception {
+	public void service(OutputStream outputStream, InputStream inputStream) throws Exception {
 		Request request = new Request(inputStream);
 		Response response = new Response(outputStream, request);
 		String uri=request.getUri();
 		if(uri.contains(readWebXml.getValue("filter-mapping"))){
-			FilterBean action=(FilterBean) filter.getFilter(uri);
+			FilterBean action=(FilterBean) filterMapping.getFilter(uri);
 			String clazz=action.getClazz();
 			String methodName=action.getMethodName();
 			Object obj=cxt.getBean(clazz);

@@ -1,0 +1,135 @@
+<2019-10-17 16:06:53> <pool-1-thread-50> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 16:07:16> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 16:07:18> <pool-1-thread-51> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 16:08:43> <pool-1-thread-52> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 16:08:45> <pool-1-thread-47> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 16:43:17> <pool-1-thread-65> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 18:38:21> <pool-1-thread-67> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 18:38:25> <pool-1-thread-67> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
+<2019-10-17 18:49:09> <pool-1-thread-92> com.httpserver.ProcessThread.run(ProcessThread.java:55) 
+<ERROR> 建立客户端输出数据流错误
+
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.httpserver.CenterServlet.service(CenterServlet.java:34)
+	at com.httpserver.ProcessThread.run(ProcessThread.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.filemanager.FileManage.listDir(FileManage.java:75)
+	... 8 more
