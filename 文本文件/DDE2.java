@@ -24,8 +24,6 @@ public class DDE2 {
 		catch (IOException e) {
 		}
 		
-			
-		
 		file = new File("D:/er/logo.png");
 		if (!file.exists()) {						
 					
